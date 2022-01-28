@@ -1,3 +1,10 @@
+### [1.0.2](https://github.com/lbenie/vue-contentful/compare/v1.0.1...v1.0.2) (2022-01-28)
+
+
+### :bug: Fixes
+
+* publishing access ([42a2a61](https://github.com/lbenie/vue-contentful/commit/42a2a616f204cb34069d953848f48d58cb640ee2))
+
 ### [1.0.1](https://github.com/lbenie/vue-contentful/compare/v1.0.0...v1.0.1) (2022-01-28)
 
 
