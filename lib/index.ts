@@ -1,1 +1,1 @@
-export { useContentful } from "./use-contentful";
+export { useContentful } from './use-contentful'

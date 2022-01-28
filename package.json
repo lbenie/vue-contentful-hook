@@ -28,7 +28,7 @@
   "scripts": {
     "test": "concurrently -n jest,stryker 'jest --coverage' 'stryker run'",
     "test:mutation": "stryker run",
-    "format": "prettier lib --write",
+    "format": "eslint 'lib/**/*.ts' --fix",
     "build": "vite build"
   },
   "devDependencies": {

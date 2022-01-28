@@ -1,50 +1,50 @@
-import { ref } from "vue";
+import { ref } from 'vue'
 
 type ContentfulOptions = {
-  readonly spaceId: string;
-  readonly token: string;
-};
+  readonly spaceId: string
+  readonly token: string
+}
 
 type ContentfulResponse<T> = {
-  readonly data: Readonly<Record<string, Readonly<T>>>;
-  readonly errors: readonly string[];
-};
+  readonly data: Readonly<Record<string, Readonly<T>>>
+  readonly errors: readonly string[]
+}
 
 export const useContentful = <T>(
   query: string,
-  { spaceId, token }: ContentfulOptions
+  { spaceId, token }: ContentfulOptions,
 ) => {
-  const data = ref<Readonly<T>>();
-  const errors = ref<readonly string[]>();
-  const isLoading = ref<boolean>(true);
+  const data = ref<Readonly<T>>()
+  const errors = ref<readonly string[]>()
+  const isLoading = ref<boolean>(true)
 
-  const URI = `https://graphql.contentful.com/content/v1/spaces/${spaceId}`;
+  const URI = `https://graphql.contentful.com/content/v1/spaces/${spaceId}`
 
   const options: RequestInit = {
-    method: "POST",
+    method: 'POST',
     headers: {
       Authorization: `Bearer ${token}`,
-      "Content-Type": "application/json",
+      'Content-Type': 'application/json',
     },
     body: JSON.stringify({ query }),
-  };
+  }
 
   fetch(URI, options)
     .then((response) => response.json() as Promise<ContentfulResponse<T>>)
     .then(({ data: response, errors: contenfulErrors }) => {
-      isLoading.value = false;
+      isLoading.value = false
 
       if (response) {
-        data.value = response[Object.keys(response)[0]];
+        data.value = response[Object.keys(response)[0]]
       }
 
       if (contenfulErrors) {
-        errors.value = contenfulErrors;
+        errors.value = contenfulErrors
       }
     })
     .catch((error: unknown) => {
-      errors.value = [String(error)];
-    });
+      errors.value = [String(error)]
+    })
 
-  return { data, errors, isLoading } as const;
-};
+  return { data, errors, isLoading } as const
+}
