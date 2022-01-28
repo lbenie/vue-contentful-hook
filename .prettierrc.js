@@ -1,4 +1,5 @@
-module.exports = {
+module.export = {
   semi: false,
-  singleQuote: true
-}
+  singleQuote: true,
+  trailingComma: "all",
+};

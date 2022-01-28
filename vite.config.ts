@@ -17,6 +17,7 @@ export default defineConfig({
           tsconfig: resolve(__dirname, 'tsconfig.json'),
         }),
       ],
+      external: ['vue'],
     },
   },
 })

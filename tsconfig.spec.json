@@ -1,11 +1,16 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "module": "esnext"
   },
   "include": [
     "lib/**/*.spec.ts",
-    "jest.config.js",
-    "global.d.ts"
-  ]
+    "jest.config.ts",
+    "shims.d.ts",
+    "global.d.ts",
+    "vite.config.ts",
+    ".eslintrc.js"
+  ],
+  "exclude": ["node_modules"]
 }

@@ -1,12 +1,34 @@
-# ts-vite
-TypeScript starter lib using vite
+# Vue Contentful
+
+A hook to call the contentful API
 
 ## Usage
 
-Replace all `my-awesome-lib` occurrence  in `package.json` for your library name.
+Ideally you should pass env variables as token and spaceId
 
-Put your github alias in `.github/funding.yml` instead of mine.
+```ts
+export interface Dummy {
+  items: {
+    readonly name: string;
+  };
+}
 
+const query = `
+  {
+    dummyCollection {
+      items {
+        name
+      }
+    }
+  }
+`;
+const { data } = useContentful<Dummy>(query, {
+  token: "myToken",
+  spaceId: "mySpaceId",
+});
+
+console.log("data", data.value?.items);
+```
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->

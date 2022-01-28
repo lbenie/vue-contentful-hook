@@ -1,16 +1,18 @@
 {
   "compilerOptions": {
-    "module": "ESNext",
+    "module": "esnext",
     "moduleResolution": "Node",
     "typeRoots": [
       "node_modules/@types"
     ],
     "declarationDir": "dist/types",
-    "declaration": true
+    "declaration": true,
+    "resolveJsonModule": true
   },
   "include": [
     "lib/**/*.ts",
-    "global.d.ts"
+    "shims.d.ts",
+    "global.d.ts",
   ],
   "exclude": [
     "node_modules",
