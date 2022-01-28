@@ -1,4 +1,4 @@
-# Vue Contentful
+# Vue Contentful Hook
 
 A hook to call the contentful API
 
@@ -8,7 +8,7 @@ Ideally you should pass env variables as token and spaceId
 
 ```ts
 export interface Dummy {
-  items: {
+  readonly items: {
     readonly name: string;
   };
 }
