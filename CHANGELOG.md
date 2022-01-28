@@ -1,3 +1,10 @@
+### [1.0.1](https://github.com/lbenie/vue-contentful/compare/v1.0.0...v1.0.1) (2022-01-28)
+
+
+### :bug: Fixes
+
+* properly format using eslint ([7836f33](https://github.com/lbenie/vue-contentful/commit/7836f3399f0d8d9c1639d45dbab0ac839485aedb))
+
 ## 1.0.0 (2022-01-28)
 
 
