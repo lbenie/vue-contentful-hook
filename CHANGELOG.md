@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/lbenie/vue-contentful/compare/v1.0.3...v1.1.0) (2022-01-28)
+
+
+### :sparkles: Features
+
+* change package name ([e049878](https://github.com/lbenie/vue-contentful/commit/e049878300ec393e2da9bfc5e2ed872a4d9412f5))
+
 ### [1.0.3](https://github.com/lbenie/vue-contentful/compare/v1.0.2...v1.0.3) (2022-01-28)
 
 
