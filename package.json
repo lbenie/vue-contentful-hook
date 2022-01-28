@@ -1,5 +1,5 @@
 {
-  "name": "vue-contentful",
+  "name": "vue-contentful-hook",
   "version": "1.0.3",
   "description": "A vue hook to fetch contentful data using GraphQL query",
   "repository": {
@@ -20,12 +20,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/vue-contentful.umd.js",
-  "module": "./dist/vue-contentful.es.js",
+  "main": "./dist/vue-contentful-hook.umd.js",
+  "module": "./dist/vue-contentful-hook.es.js",
   "exports": {
     ".": {
-      "import": "./dist/vue-contentful.es.js",
-      "require": "./dist/vue-contentful.umd.js"
+      "import": "./dist/vue-contentful-hook.es.js",
+      "require": "./dist/vue-contentful-hook.umd.js"
     }
   },
   "types": "dist/types/index.d.ts",
