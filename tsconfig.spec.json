@@ -10,7 +10,8 @@
     "shims.d.ts",
     "global.d.ts",
     "vite.config.ts",
-    ".eslintrc.js"
+    ".eslintrc.js",
+    "release.config.js"
   ],
   "exclude": ["node_modules"]
 }

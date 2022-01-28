@@ -3,7 +3,11 @@
   "version": "1.0.1",
   "description": "A vue hook to fetch contentful data using GraphQL query",
   "repository": {
-    "url": "https://github.com/lbenie/vue-contentful"
+    "type": "git",
+    "url": "https://github.com/lbenie/vue-contentful.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "vue",
