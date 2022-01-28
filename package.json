@@ -1,6 +1,6 @@
 {
   "name": "vue-contentful",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A vue hook to fetch contentful data using GraphQL query",
   "repository": {
     "type": "git",

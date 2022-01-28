@@ -1,3 +1,10 @@
+### [1.0.3](https://github.com/lbenie/vue-contentful/compare/v1.0.2...v1.0.3) (2022-01-28)
+
+
+### :bug: Fixes
+
+* test workflow ([1d4eaaf](https://github.com/lbenie/vue-contentful/commit/1d4eaafa01dd6f789a1c0997595be8d35536ca4d))
+
 ### [1.0.2](https://github.com/lbenie/vue-contentful/compare/v1.0.1...v1.0.2) (2022-01-28)
 
 
