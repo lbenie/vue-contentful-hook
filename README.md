@@ -1,15 +1,25 @@
 # Vue Contentful Hook
 
-A hook to call the contentful API
+A hook to call the contentful API using GraphQl
 
 ## Usage
 
 Ideally you should pass env variables as token and spaceId
 
 ```ts
-export interface Dummy {
-  readonly items: {
-    readonly name: string;
+export interface Dummy<T, U> {
+  readonly dummyCollection: {
+    readonly total: number;
+    readonly skip: number;
+    readonly limit: number;
+    readonly items: readonly T[];
+  };
+
+  readonly someOtherDummyCollection: {
+    readonly total: number;
+    readonly skip: number;
+    readonly limit: number;
+    readonly items: readonly U[];
   };
 }
 
@@ -20,14 +30,22 @@ const query = `
         name
       }
     }
+    someOtherDummyCollection {
+      items {
+        name
+      }
+    }
   }
 `;
-const { data } = useContentful<Dummy>(query, {
+const { data } = useContentful<Dummy<string, number>>(query, {
   token: "myToken",
   spaceId: "mySpaceId",
 });
 
-console.log("data", data.value?.items);
+// an array of strings
+console.log("data", data.value?.dummyCollection.items);
+// an array of numbers
+console.log("data", data.value?.dummyCollection.items);
 ```
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->

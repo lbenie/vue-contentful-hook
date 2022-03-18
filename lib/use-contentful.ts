@@ -6,7 +6,7 @@ type ContentfulOptions = {
 }
 
 type ContentfulResponse<T> = {
-  readonly data: Readonly<Record<string, Readonly<T>>>
+  readonly data: Readonly<T>
   readonly errors: readonly string[]
 }
 
@@ -14,8 +14,8 @@ export const useContentful = <T>(
   query: string,
   { spaceId, token }: ContentfulOptions,
 ) => {
-  const data = ref<Readonly<T>>()
-  const errors = ref<readonly string[]>()
+  const data = ref<ContentfulResponse<T>['data']>()
+  const errors = ref<ContentfulResponse<T>['errors']>()
   const isLoading = ref<boolean>(true)
 
   const URI = `https://graphql.contentful.com/content/v1/spaces/${spaceId}`
@@ -35,7 +35,7 @@ export const useContentful = <T>(
       isLoading.value = false
 
       if (response) {
-        data.value = response[Object.keys(response)[0]]
+        data.value = response
       }
 
       if (contenfulErrors) {
