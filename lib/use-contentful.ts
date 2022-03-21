@@ -1,4 +1,5 @@
 import { ref } from 'vue'
+import axios from 'axios'
 
 type ContentfulOptions = {
   readonly spaceId: string
@@ -20,17 +21,15 @@ export const useContentful = <T>(
 
   const URI = `https://graphql.contentful.com/content/v1/spaces/${spaceId}`
 
-  const options: RequestInit = {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${token}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({ query }),
-  }
-
-  fetch(URI, options)
-    .then((response) => response.json() as Promise<ContentfulResponse<T>>)
+  axios
+    .post<ContentfulResponse<T>>(URI, {
+      headers: {
+        Authorization: `Bearer ${token}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ query }),
+    })
+    .then(({ data }) => data)
     .then(({ data: response, errors: contenfulErrors }) => {
       isLoading.value = false
 

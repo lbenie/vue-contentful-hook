@@ -47,6 +47,7 @@
     "@typescript-eslint/eslint-plugin": "5.15.0",
     "@typescript-eslint/parser": "5.15.0",
     "all-contributors-cli": "6.20.0",
+    "axios": "^0.26.1",
     "concurrently": "7.0.0",
     "conventional-changelog-conventionalcommits": "4.6.3",
     "eslint": "8.11.0",
@@ -66,6 +67,7 @@
     "vue": "3.2.31"
   },
   "peerDependencies": {
+    "axios": "^0.26.1",
     "vue": "^3.2.29"
   }
 }
