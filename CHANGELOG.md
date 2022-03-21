@@ -1,3 +1,10 @@
+## [1.3.0](https://github.com/lbenie/vue-contentful-hook/compare/v1.2.0...v1.3.0) (2022-03-21)
+
+
+### :sparkles: Features
+
+* use axios for ssr ([9bb183b](https://github.com/lbenie/vue-contentful-hook/commit/9bb183b9583ff7b1cc1c43fdcb594c0db7210acd))
+
 ## [1.2.0](https://github.com/lbenie/vue-contentful-hook/compare/v1.1.0...v1.2.0) (2022-03-18)
 
 
