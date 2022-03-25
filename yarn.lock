@@ -4658,10 +4658,10 @@ tree-kill@^1.2.2, tree-kill@~1.2.2:
   resolved "https://registry.yarnpkg.com/tree-kill/-/tree-kill-1.2.2.tgz#4ca09a9092c88b73a7cdc5e8a01b507b0790a0cc"
   integrity sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==
 
-ts-jest-mock@1.1.31:
-  version "1.1.31"
-  resolved "https://registry.yarnpkg.com/ts-jest-mock/-/ts-jest-mock-1.1.31.tgz#1a8cf198d1bf2292069599541aab03f47816d63b"
-  integrity sha512-t0VwH6wFBTcSjEjoErACaaDzMPavrcO+BAkx7gjtq8qgbcOCETOwFeuvgoGeJINYlpu1v2CmRw0AolOZYESzeQ==
+ts-jest-mock@1.1.32:
+  version "1.1.32"
+  resolved "https://registry.yarnpkg.com/ts-jest-mock/-/ts-jest-mock-1.1.32.tgz#f59c5e5c2ad8a0b0c8ac8e79249dc46be1d42102"
+  integrity sha512-7xxhg+45wTS7z33qNjJ6Atu2rZZmmVBbVs/XlRSgC8iw/OdbGvIA5sM8MKcb5eFow3oPcSAWQSAf170qrG21Pg==
 
 ts-jest@27.1.4:
   version "27.1.4"
