@@ -1,3 +1,25 @@
+### [1.3.1](https://github.com/lbenie/vue-contentful-hook/compare/v1.3.0...v1.3.1) (2022-03-30)
+
+
+### :white_check_mark: Chores
+
+* **deps:** bump minimist from 1.2.5 to 1.2.6 ([5e3d7f4](https://github.com/lbenie/vue-contentful-hook/commit/5e3d7f480aa5227cfa119a9d71e2b29e87c4ba1a))
+* **deps:** pin dependency axios to 0.26.1 ([5e9409d](https://github.com/lbenie/vue-contentful-hook/commit/5e9409dbdc1238d9f9bdcb7b0ad2ba8698ba9a44))
+* **deps:** update dependency @semantic-release/github to v8.0.4 ([3894ddc](https://github.com/lbenie/vue-contentful-hook/commit/3894ddcd29e1fd3b99d85d85eefcfde9e55463a4))
+* **deps:** update dependency eslint to v8.12.0 ([b38c33a](https://github.com/lbenie/vue-contentful-hook/commit/b38c33a4234bb0ca0d7ddd9e821ce5f5ecf5c600))
+* **deps:** update dependency prettier to v2.6.1 ([3a12b02](https://github.com/lbenie/vue-contentful-hook/commit/3a12b02ff8df9de1e06487f9b12be544e58e09da))
+* **deps:** update dependency ts-jest to v27.1.4 ([8e6fee7](https://github.com/lbenie/vue-contentful-hook/commit/8e6fee734c50522c80a56f0d510760aec898e07e))
+* **deps:** update dependency ts-jest-mock to v1.1.32 ([ef9cb4a](https://github.com/lbenie/vue-contentful-hook/commit/ef9cb4a3cfef4dde2a8a998e5b1054eba956c81d))
+* **deps:** update dependency typescript to v4.6.3 ([9e8abca](https://github.com/lbenie/vue-contentful-hook/commit/9e8abca45e2ae88a4b2fe229b009b11e4c9dd7a8))
+* **deps:** update stefanzweifel/git-auto-commit-action action to v4.14.0 ([4058e3d](https://github.com/lbenie/vue-contentful-hook/commit/4058e3df48a3c9685f899cbc1dfe261fe6a8aeba))
+* **deps:** update typescript-eslint monorepo to v5.16.0 ([e5f5890](https://github.com/lbenie/vue-contentful-hook/commit/e5f589038dfba5a6c09a4f2150c025fcf5e09f84))
+* **deps:** update typescript-eslint monorepo to v5.17.0 ([8726016](https://github.com/lbenie/vue-contentful-hook/commit/8726016e88af5232be2cd9fec944c28bf63533da))
+
+
+### :bug: Fixes
+
+* properly use axios API ([c04880c](https://github.com/lbenie/vue-contentful-hook/commit/c04880c31450ad46e0c4242dc3062460e7295c5c))
+
 ## [1.3.0](https://github.com/lbenie/vue-contentful-hook/compare/v1.2.0...v1.3.0) (2022-03-21)
 
 
