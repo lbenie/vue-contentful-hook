@@ -22,13 +22,16 @@ export const useContentful = <T>(
   const URI = `https://graphql.contentful.com/content/v1/spaces/${spaceId}`
 
   axios
-    .post<ContentfulResponse<T>>(URI, {
-      headers: {
-        Authorization: `Bearer ${token}`,
-        'Content-Type': 'application/json',
+    .post<ContentfulResponse<T>>(
+      URI,
+      { query },
+      {
+        headers: {
+          Authorization: `Bearer ${token}`,
+          'Content-Type': 'application/json',
+        },
       },
-      body: JSON.stringify({ query }),
-    })
+    )
     .then(({ data }) => data)
     .then(({ data: response, errors: contenfulErrors }) => {
       isLoading.value = false
