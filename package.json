@@ -1,5 +1,6 @@
 {
   "name": "vue-contentful-hook",
+  "author": "Lucien Bénié <lucien.benie@gmail.com>",
   "version": "1.3.1",
   "description": "A vue hook to fetch contentful data using GraphQL query",
   "repository": {
@@ -25,7 +26,8 @@
   "exports": {
     ".": {
       "import": "./dist/vue-contentful-hook.es.js",
-      "require": "./dist/vue-contentful-hook.umd.js"
+      "require": "./dist/vue-contentful-hook.umd.js",
+      "types": "./dist/types/index.d.ts"
     }
   },
   "types": "dist/types/index.d.ts",
