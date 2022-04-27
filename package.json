@@ -57,7 +57,7 @@
     "jest-chain": "1.1.5",
     "jest-extended": "2.0.0",
     "prettier": "2.6.2",
-    "prettier-eslint": "14.0.1",
+    "prettier-eslint": "14.0.2",
     "rollup-plugin-peer-deps-external": "2.2.4",
     "ts-jest": "27.1.4",
     "ts-jest-mock": "1.1.32",
