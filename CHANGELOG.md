@@ -1,3 +1,45 @@
+### [1.3.2](https://github.com/lbenie/vue-contentful-hook/compare/v1.3.1...v1.3.2) (2022-05-03)
+
+
+### :white_check_mark: Chores
+
+* package ([df0156f](https://github.com/lbenie/vue-contentful-hook/commit/df0156f0514a254d2b187ff7dce19a5e69d5dea6))
+* **deps:** update dependency @rollup/plugin-typescript to v8.3.2 ([370bb4f](https://github.com/lbenie/vue-contentful-hook/commit/370bb4f66f99465fde6f410689f39ab162b1e54f))
+* **deps:** update dependency @types/jest to v27.5.0 ([5b96c63](https://github.com/lbenie/vue-contentful-hook/commit/5b96c6306147667abe50c8bda56e37af39801a96))
+* **deps:** update dependency concurrently to v7.1.0 ([9341b34](https://github.com/lbenie/vue-contentful-hook/commit/9341b342a79d365fe55669fccfc81549b3c56090))
+* **deps:** update dependency eslint to v8.13.0 ([3e03c5c](https://github.com/lbenie/vue-contentful-hook/commit/3e03c5cc7062f1ff0ca642136444908c0100bfa3))
+* **deps:** update dependency eslint to v8.14.0 ([e132c2a](https://github.com/lbenie/vue-contentful-hook/commit/e132c2a3b113165af16c7a950b506fe198b2e518))
+* **deps:** update dependency jest to v28.0.1 ([76aa5de](https://github.com/lbenie/vue-contentful-hook/commit/76aa5debdd87aedf6723b275b92e3a9976e34860))
+* **deps:** update dependency jest to v28.0.2 ([c1eab8e](https://github.com/lbenie/vue-contentful-hook/commit/c1eab8e8e62b0bf69e2e01d2413a3d482b111630))
+* **deps:** update dependency jest to v28.0.3 ([14343d2](https://github.com/lbenie/vue-contentful-hook/commit/14343d22f894fb4d140cbb3ac758062355f30afa))
+* **deps:** update dependency jest to v28 ([71985b5](https://github.com/lbenie/vue-contentful-hook/commit/71985b5e32d6ec38b6aeddfb42b7a9ed1d8e0586))
+* **deps:** update dependency prettier to v2.6.2 ([0291f39](https://github.com/lbenie/vue-contentful-hook/commit/0291f398843aadc062bedd142ff1ba5083e649eb))
+* **deps:** update dependency prettier-eslint to v14.0.1 ([13af9b3](https://github.com/lbenie/vue-contentful-hook/commit/13af9b3208bee1c49a09b53be28d5fd6bcfcf358))
+* **deps:** update dependency prettier-eslint to v14.0.2 ([80bc2d8](https://github.com/lbenie/vue-contentful-hook/commit/80bc2d82cdff33695526b60e3204e4a7a57e83ff))
+* **deps:** update dependency prettier-eslint to v14 ([7ef8ca2](https://github.com/lbenie/vue-contentful-hook/commit/7ef8ca25c037885621d712613de892109adcfe2f))
+* **deps:** update dependency ts-jest to v28 ([1e7c1f4](https://github.com/lbenie/vue-contentful-hook/commit/1e7c1f40eadf13dfbdac3f6aed50337709febff6))
+* **deps:** update dependency typescript to v4.6.4 ([4ee90ac](https://github.com/lbenie/vue-contentful-hook/commit/4ee90ace82d8974fe8fc44ed011263f8bf84baca))
+* **deps:** update dependency vite to v2.9.0 ([03828ab](https://github.com/lbenie/vue-contentful-hook/commit/03828ab6867b0f9306af98b463c2af358f2864a7))
+* **deps:** update dependency vite to v2.9.1 ([72797ea](https://github.com/lbenie/vue-contentful-hook/commit/72797ea590f27a83b07ae7d4d5b753a0487b7c03))
+* **deps:** update dependency vite to v2.9.4 ([0750f3b](https://github.com/lbenie/vue-contentful-hook/commit/0750f3bebff0c83d6f74b316e358c9c3f8c02c9d))
+* **deps:** update dependency vite to v2.9.5 ([3174423](https://github.com/lbenie/vue-contentful-hook/commit/317442337000f3626f2daa0ace39c144af9d7e92))
+* **deps:** update dependency vite to v2.9.6 ([3d2b94a](https://github.com/lbenie/vue-contentful-hook/commit/3d2b94ada0007f359374a03cd6ad22b55b3ba263))
+* **deps:** update dependency vite to v2.9.7 ([3b407ed](https://github.com/lbenie/vue-contentful-hook/commit/3b407edbae0132b878f4e3dcc1b1c91363019300))
+* **deps:** update dependency vue to v3.2.32 ([d9371d7](https://github.com/lbenie/vue-contentful-hook/commit/d9371d7efda25ff1b9208d436271efcad35b430b))
+* **deps:** update dependency vue to v3.2.33 ([4b7098f](https://github.com/lbenie/vue-contentful-hook/commit/4b7098f0975b838b80ea3fe44eaf0620a5d99169))
+* **deps:** update stryker-js monorepo to v6 ([31855b4](https://github.com/lbenie/vue-contentful-hook/commit/31855b4e94cc63351d2503ad80011e908d11b704))
+* **deps:** update typescript-eslint monorepo to v5.18.0 ([91a563c](https://github.com/lbenie/vue-contentful-hook/commit/91a563cbc90468cc8ee09c23121888f9f9735985))
+* **deps:** update typescript-eslint monorepo to v5.19.0 ([0bf2c13](https://github.com/lbenie/vue-contentful-hook/commit/0bf2c13cb8bcca1e50b4a4d772344be4c5363b87))
+* **deps:** update typescript-eslint monorepo to v5.20.0 ([60b20e8](https://github.com/lbenie/vue-contentful-hook/commit/60b20e8d6391154b31e22c73b67ed00fb252b377))
+* **deps:** update typescript-eslint monorepo to v5.21.0 ([b4b659a](https://github.com/lbenie/vue-contentful-hook/commit/b4b659a015bc231d80a455bb9526ca4a56d28d62))
+* **deps:** update typescript-eslint monorepo to v5.22.0 ([57e5ecb](https://github.com/lbenie/vue-contentful-hook/commit/57e5ecbcd06b78291493bd08e9d521971e44d636))
+
+
+### :bug: Fixes
+
+* add axios as external dep ([299de2b](https://github.com/lbenie/vue-contentful-hook/commit/299de2bf09fbea4b4b0108d74c2ffff5b8e23788))
+* properly set isLoading to true when rejected or fulfilled ([96ff89c](https://github.com/lbenie/vue-contentful-hook/commit/96ff89c441f5d24d8fedbe0db4e89ca2cd4eeac3))
+
 ### [1.3.1](https://github.com/lbenie/vue-contentful-hook/compare/v1.3.0...v1.3.1) (2022-03-30)
 
 
