@@ -34,8 +34,6 @@ export const useContentful = <T>(
     )
     .then(({ data }) => data)
     .then(({ data: response, errors: contenfulErrors }) => {
-      isLoading.value = false
-
       if (response) {
         data.value = response
       }
@@ -46,6 +44,9 @@ export const useContentful = <T>(
     })
     .catch((error: unknown) => {
       errors.value = [String(error)]
+    })
+    .finally(() => {
+      isLoading.value = false
     })
 
   return { data, errors, isLoading } as const
