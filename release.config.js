@@ -116,11 +116,11 @@ module.exports = {
       {
         assets: [
           {
-            path: 'dist/ts-jest-mock.js',
+            path: 'dist/vue-contentful-hook.es.js',
             label: 'ES js distribution',
           },
           {
-            path: 'dist/ts-jest-mock.js',
+            path: 'dist/vue-contentful-hook.umd.js',
             label: 'UMD js distribution',
           },
         ],
