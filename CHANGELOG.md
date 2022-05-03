@@ -1,3 +1,17 @@
+### [1.3.3](https://github.com/lbenie/vue-contentful-hook/compare/v1.3.2...v1.3.3) (2022-05-03)
+
+
+### :white_check_mark: Chores
+
+* **deps:** update dependency axios to v0.27.2 ([a2af6c0](https://github.com/lbenie/vue-contentful-hook/commit/a2af6c0d5032a614cb85f10fe29bbc3732c326e4))
+* **deps:** update github/codeql-action action to v2 ([a716605](https://github.com/lbenie/vue-contentful-hook/commit/a7166056538ced378394090d4eb79dd1c7c95dd7))
+* **deps:** update stefanzweifel/git-auto-commit-action action to v4.14.1 ([09c3158](https://github.com/lbenie/vue-contentful-hook/commit/09c3158694d7f5caba43f497984611b54c5cb66e))
+
+
+### :bug: Fixes
+
+* properly fix semantic assets path ([31f23b1](https://github.com/lbenie/vue-contentful-hook/commit/31f23b1265b20d79d0e71ee86e291f58940de7c8))
+
 ### [1.3.2](https://github.com/lbenie/vue-contentful-hook/compare/v1.3.1...v1.3.2) (2022-05-03)
 
 
