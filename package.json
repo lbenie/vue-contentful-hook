@@ -25,9 +25,9 @@
   "module": "./dist/vue-contentful-hook.es.js",
   "exports": {
     ".": {
+      "types": "./dist/types/index.d.ts",
       "import": "./dist/vue-contentful-hook.es.js",
-      "require": "./dist/vue-contentful-hook.umd.js",
-      "types": "./dist/types/index.d.ts"
+      "require": "./dist/vue-contentful-hook.umd.js"
     }
   },
   "types": "dist/types/index.d.ts",
