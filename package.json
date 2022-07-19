@@ -45,7 +45,7 @@
     "@stryker-mutator/core": "6.1.2",
     "@stryker-mutator/jest-runner": "6.1.2",
     "@types/jest": "28.1.6",
-    "@types/semantic-release": "17.2.3",
+    "@types/semantic-release": "17.2.4",
     "@typescript-eslint/eslint-plugin": "5.30.7",
     "@typescript-eslint/parser": "5.30.7",
     "all-contributors-cli": "6.20.0",
