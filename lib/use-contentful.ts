@@ -11,6 +11,12 @@ type ContentfulResponse<T> = {
   readonly errors: readonly string[]
 }
 
+/**
+ *
+ * @param query GraphQL query you want to execute
+ * @param options An object containing the spaceId and token
+ * @returns an object containing the data, errors and a loading state
+ */
 export const useContentful = <T>(
   query: string,
   { spaceId, token }: ContentfulOptions,
