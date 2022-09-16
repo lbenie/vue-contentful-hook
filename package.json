@@ -21,16 +21,17 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/vue-contentful-hook.umd.js",
-  "module": "./dist/vue-contentful-hook.es.js",
+  "main": "./dist/vue-contentful-hook.umd.cjs",
+  "module": "./dist/vue-contentful-hook.js",
   "exports": {
     ".": {
       "types": "./dist/types/index.d.ts",
-      "import": "./dist/vue-contentful-hook.es.js",
-      "require": "./dist/vue-contentful-hook.umd.js"
+      "import": "./dist/vue-contentful-hook.js",
+      "require": "./dist/vue-contentful-hook.umd.cjs"
     }
   },
   "types": "dist/types/index.d.ts",
+  "type": "module",
   "scripts": {
     "test": "concurrently -n jest,stryker 'jest --coverage' 'stryker run'",
     "test:mutation": "stryker run",
