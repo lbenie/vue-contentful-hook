@@ -50,7 +50,7 @@
     "@typescript-eslint/eslint-plugin": "5.47.1",
     "@typescript-eslint/parser": "5.47.1",
     "all-contributors-cli": "6.24.0",
-    "axios": "1.2.1",
+    "axios": "1.2.2",
     "concurrently": "7.6.0",
     "conventional-changelog-conventionalcommits": "5.0.0",
     "eslint": "8.30.0",
