@@ -63,7 +63,7 @@
     "prettier-eslint": "15.0.1",
     "rollup-plugin-peer-deps-external": "2.2.4",
     "ts-jest": "29.0.5",
-    "ts-jest-mock": "1.1.33",
+    "ts-jest-mock": "1.2.1",
     "ts-node": "10.9.1",
     "typescript": "5.0.2",
     "vite": "4.2.1",
