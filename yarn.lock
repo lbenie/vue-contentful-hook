@@ -1564,10 +1564,10 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@8.0.8":
-  version "8.0.8"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-8.0.8.tgz#d1e8f9ec0ef2d1a9afddbc094086b22cb11a917a"
-  integrity sha512-zu014e5FtoENb278YTVBCpLTK73LgXJn9UISGSzor/fnhRRwiyc1L7J+ijdpv90zvW+vb7oTwK3H6piFa5ck1g==
+"@semantic-release/github@8.1.0":
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-8.1.0.tgz#c31fc5852d32975648445804d1984cd96e72c4d0"
+  integrity sha512-erR9E5rpdsz0dW1I7785JtndQuMWN/iDcemcptf67tBNOmBUN0b2YNOgcjYUnBpgRpZ5ozfBHrK7Bz+2ets/Dg==
   dependencies:
     "@octokit/core" "^4.2.1"
     "@octokit/plugin-paginate-rest" "^6.1.2"
@@ -1579,8 +1579,8 @@
     dir-glob "^3.0.0"
     fs-extra "^11.0.0"
     globby "^11.0.0"
-    http-proxy-agent "^5.0.0"
-    https-proxy-agent "^5.0.0"
+    http-proxy-agent "^7.0.0"
+    https-proxy-agent "^7.0.0"
     issue-parser "^6.0.0"
     lodash "^4.17.4"
     mime "^3.0.0"
@@ -1689,11 +1689,6 @@
   integrity sha512-L6lf2JddgLS3D8cIN7FxxkRPmZ0PF48sdvn5TPnDhwZ7/1IXRXolzJFtXhQinRnDu6SyKGSJcwNOeJXyCcmuLQ==
   dependencies:
     lodash.flatmap "~4.5.0"
-
-"@tootallnate/once@2":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-2.0.0.tgz#f544a148d3ab35801c1f633a7441fd87c2e484bf"
-  integrity sha512-XCuKFP5PS55gnMVu3dty8KPatLqUoy/ZYzDzAGCQ8JNFCkLXzmI7vNHCR+XpbZaMWQK/vQubr7PkYq8g470J/A==
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.8"
@@ -2092,12 +2087,12 @@ acorn@^8.8.0:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.8.0.tgz#88c0187620435c7f6015803f5539dae05a9dbea8"
   integrity sha512-QOxyigPVrpZ2GXT+PFyZTl6TtOFc5egxHIP9IlQ+RbupQuX4RkT/Bee4/kQuC02Xkzg84JcT7oLYtDIQxp+v7w==
 
-agent-base@6:
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/agent-base/-/agent-base-6.0.2.tgz#49fff58577cfee3f37176feab4c22e00f86d7f77"
-  integrity sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==
+agent-base@^7.0.2, agent-base@^7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/agent-base/-/agent-base-7.1.0.tgz#536802b76bc0b34aa50195eb2442276d613e3434"
+  integrity sha512-o/zjMZRhJxny7OyEF+Op8X+efiELC7k7yOjMzgfzVqOzXqkBkWI79YoTdOtsuWd5BWhAGAuOY/Xa6xpiaWXiNg==
   dependencies:
-    debug "4"
+    debug "^4.3.4"
 
 aggregate-error@^3.0.0:
   version "3.1.0"
@@ -3508,21 +3503,20 @@ html-escaper@^2.0.0:
   resolved "https://registry.yarnpkg.com/html-escaper/-/html-escaper-2.0.2.tgz#dfd60027da36a36dfcbe236262c00a5822681453"
   integrity sha512-H2iMtd0I4Mt5eYiapRdIDjp+XzelXQ0tFE4JS7YFwFevXXMmOp9myNrUvCg0D6ws8iqkRPBfKHgbwig1SmlLfg==
 
-http-proxy-agent@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/http-proxy-agent/-/http-proxy-agent-5.0.0.tgz#5129800203520d434f142bc78ff3c170800f2b43"
-  integrity sha512-n2hY8YdoRE1i7r6M0w9DIw5GgZN0G25P8zLCRQ8rjXtTU3vsNFBI/vWK/UIeE6g5MUUz6avwAPXmL6Fy9D/90w==
+http-proxy-agent@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/http-proxy-agent/-/http-proxy-agent-7.0.0.tgz#e9096c5afd071a3fce56e6252bb321583c124673"
+  integrity sha512-+ZT+iBxVUQ1asugqnD6oWoRiS25AkjNfG085dKJGtGxkdwLQrMKU5wJr2bOOFAXzKcTuqq+7fZlTMgG3SRfIYQ==
   dependencies:
-    "@tootallnate/once" "2"
-    agent-base "6"
-    debug "4"
+    agent-base "^7.1.0"
+    debug "^4.3.4"
 
-https-proxy-agent@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-5.0.0.tgz#e2a90542abb68a762e0a0850f6c9edadfd8506b2"
-  integrity sha512-EkYm5BcKUGiduxzSt3Eppko+PiNWNEpa4ySk9vTC6wDsQJW9rHSa+UhGNJoRYp7bz6Ht1eaRIa6QaJqO5rCFbA==
+https-proxy-agent@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-7.0.0.tgz#75cb70d04811685667183b31ab158d006750418a"
+  integrity sha512-0euwPCRyAPSgGdzD1IVN9nJYHtBhJwb6XPfbpQcYbPCwrBidX6GzxmchnaF4sfF/jPb74Ojx5g4yTg3sixlyPw==
   dependencies:
-    agent-base "6"
+    agent-base "^7.0.2"
     debug "4"
 
 human-signals@^2.1.0:
