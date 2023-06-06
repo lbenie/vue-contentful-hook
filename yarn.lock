@@ -2761,14 +2761,12 @@ concurrently@8.1.0:
     tree-kill "^1.2.2"
     yargs "^17.7.1"
 
-conventional-changelog-conventionalcommits@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-5.0.0.tgz#41bdce54eb65a848a4a3ffdca93e92fa22b64a86"
-  integrity sha512-lCDbA+ZqVFQGUj7h9QBKoIpLhl8iihkO0nCTyRNzuXtcd7ubODpYB04IFy31JloiJgG0Uovu8ot8oxRzn7Nwtw==
+conventional-changelog-conventionalcommits@6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-6.0.0.tgz#b0ab0c47aec45dbae17f7575df41a92bbb1ba7b0"
+  integrity sha512-pOQWvJ2se8UmGj3Vz5NzhljdgHvGow6ATZ7pM0TZqGekAfwgJkr3YQ9ZbooB4VIh35KS/cpfIgVrLoqLNvFNYg==
   dependencies:
     compare-func "^2.0.0"
-    lodash "^4.17.15"
-    q "^1.5.1"
 
 convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   version "1.8.0"
@@ -4518,7 +4516,7 @@ lodash.uniqby@^4.7.0:
   resolved "https://registry.yarnpkg.com/lodash.uniqby/-/lodash.uniqby-4.7.0.tgz#d99c07a669e9e6d24e1362dfe266c67616af1302"
   integrity sha1-2ZwHpmnp5tJOE2Lf4mbGdhavEwI=
 
-lodash@^4.11.2, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.21, lodash@^4.17.4:
+lodash@^4.11.2, lodash@^4.17.19, lodash@^4.17.21, lodash@^4.17.4:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -5067,11 +5065,6 @@ pure-rand@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/pure-rand/-/pure-rand-6.0.0.tgz#701996ceefa253507923a0e864c17ab421c04a7c"
   integrity sha512-rLSBxJjP+4DQOgcJAx6RZHT2he2pkhQdSnofG5VWyVl6GRq/K02ISOuOLcsMOrtKDIJb8JN2zm3FFzWNbezdPw==
-
-q@^1.5.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
-  integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
 qs@^6.9.1:
   version "6.10.3"
