@@ -5664,10 +5664,10 @@ ts-api-utils@^1.0.1:
   resolved "https://registry.yarnpkg.com/ts-api-utils/-/ts-api-utils-1.0.1.tgz#8144e811d44c749cd65b2da305a032510774452d"
   integrity sha512-lC/RGlPmwdrIBFTX59wwNzqh7aR2otPNPR/5brHZm/XKFYKsfqxihXUe9pU3JI+3vGkl+vyCoNNnPhJn3aLK1A==
 
-ts-jest-mock@1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/ts-jest-mock/-/ts-jest-mock-1.4.0.tgz#8497a50f8b4d26d79bc650eaee805653b9e83bcd"
-  integrity sha512-JRlArTS2y4rtXL5FvqH6c4drgdLNQrv8JDEWLiw/xmqgCJyJIFOPKTdS0GO5rSH6351P/ynULpHoz2D/nEB6ZA==
+ts-jest-mock@1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/ts-jest-mock/-/ts-jest-mock-1.4.1.tgz#c1d245b03dfa59c19ea84359bb187228736ceae7"
+  integrity sha512-0tMJ+eOVe5lLZgwe94Qz6JreqOem6uY7O9TZEFhAp+RF68RKgJJp4qkH9vL5pqPjJcgynx7Lag37OW0KBew6Bg==
 
 ts-jest@29.1.2:
   version "29.1.2"
