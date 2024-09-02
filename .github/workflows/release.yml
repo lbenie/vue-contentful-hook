@@ -9,11 +9,11 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 'latest'
-      - name: Checkout
-        uses: actions/checkout@v4
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
       - name: Build module
