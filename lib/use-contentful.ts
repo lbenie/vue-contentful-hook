@@ -12,10 +12,16 @@ type ContentfulResponse<T> = {
 }
 
 /**
- *
- * @param query GraphQL query you want to execute
- * @param options An object containing the spaceId and token
- * @returns an object containing the data, errors and a loading state
+ * Executes a GraphQL query using the Contentful API.
+ * @template T - The type of the response data.
+ * @param {string} query - The GraphQL query you want to execute.
+ * @param {ContentfulOptions} options - An object containing the spaceId and token.
+ * @param {string} options.spaceId - The space ID.
+ * @param {string} options.token - The access token.
+ * @returns {object} - An object containing the response data, errors, and a loading state.
+ * @property {T} data - The response data.
+ * @property {string[]} errors - An array of error messages.
+ * @property {boolean} isLoading - A boolean indicating if the request is still loading.
  */
 export const useContentful = <T>(
   query: string,
