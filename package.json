@@ -46,7 +46,7 @@
     "@semantic-release/github": "11.0.3",
     "@stryker-mutator/core": "9.0.1",
     "@stryker-mutator/jest-runner": "9.0.1",
-    "@types/jest": "29.5.14",
+    "@types/jest": "30.0.0",
     "@types/semantic-release": "20.0.6",
     "all-contributors-cli": "6.26.1",
     "axios": "1.10.0",
