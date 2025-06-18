@@ -61,7 +61,7 @@
     "ts-node": "10.9.2",
     "typescript": "5.8.3",
     "vite": "6.3.5",
-    "vue": "3.5.16"
+    "vue": "3.5.17"
   },
   "peerDependencies": {
     "axios": "^1.7.4",
