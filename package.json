@@ -56,7 +56,7 @@
     "jest-chain": "1.1.6",
     "jest-extended": "6.0.0",
     "rollup-plugin-peer-deps-external": "2.2.4",
-    "ts-jest": "29.4.3",
+    "ts-jest": "29.4.4",
     "ts-jest-mock": "1.4.2",
     "ts-node": "10.9.2",
     "typescript": "5.9.2",
