@@ -59,7 +59,7 @@
     "ts-jest": "29.4.6",
     "ts-jest-mock": "1.4.2",
     "ts-node": "10.9.2",
-    "typescript": "5.9.3",
+    "typescript": "6.0.2",
     "vite": "8.0.2",
     "vue": "3.5.30"
   },
