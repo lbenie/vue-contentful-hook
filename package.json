@@ -41,8 +41,8 @@
   "devDependencies": {
     "@lbenie/linting": "1.8.217",
     "@rollup/plugin-typescript": "12.3.0",
-    "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/git": "10.0.1",
+    "@semantic-release/changelog": "7.0.0",
+    "@semantic-release/git": "11.0.0",
     "@semantic-release/github": "12.0.9",
     "@stryker-mutator/core": "9.6.1",
     "@stryker-mutator/jest-runner": "9.6.1",
