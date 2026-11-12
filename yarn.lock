@@ -3378,10 +3378,10 @@ ajv@~8.20.0:
     json-schema-traverse "^1.0.0"
     require-from-string "^2.0.2"
 
-all-contributors-cli@7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/all-contributors-cli/-/all-contributors-cli-7.0.0.tgz#825d8f18b0dd34eb4d37ebff0dac53aa80575a21"
-  integrity sha512-Ng5BzMGjyd5BOKONQLkZ0udJBuda65t+CmhGoURhHmfuztvCjLw/CkRuA/lj1+FgqWvzv06IOEgxt6h+7GlSBQ==
+all-contributors-cli@7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/all-contributors-cli/-/all-contributors-cli-7.0.2.tgz#c2f2a034236d215ceec1fcdb1d28523507a2d910"
+  integrity sha512-dgZfjqyQ5mWo/InlyxtBNG58Ks4n7eGMot19euaXN5to4O3UdV5D352Aqqzw7qMnd3u3gWN9j4n7TFaj96Ia5Q==
   dependencies:
     eta "^4.5.1"
     inquirer "^14.0.2"
